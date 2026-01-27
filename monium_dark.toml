@@ -26,7 +26,7 @@
 "ui.gutter.selected" = { bg="" }
 
 # # the line number column in the gutter typically to the left in the window
-"ui.linenr" = { fg="s3" }
+"ui.linenr" = { fg="s1" }
 "ui.linenr.selected" = {fg="s1", modifiers=["bold"] }
 
 # # the line below that shows the file location of the current buffer, the mode you are in, etc
@@ -121,7 +121,7 @@
 # escape
 "constant.character" = { fg="s1" }
 # numbers
-"constant.numeric" = { fg="s2" }
+"constant.numeric" = { fg="s1" }
 
 # string literals
 "string" = "s2"
@@ -147,9 +147,9 @@
 # keywords like "self, this, super"
 "variable.builtin" = { fg="s2", modifiers=["italic"] }
 # function parameters, the parameter symbols () and its content in function signatures
-"variable.parameter" = {fg="s0"}
+"variable.parameter" = { fg="s0" }
 # dotted members, such as in Globals.this.this.this, fields of composite data types (e.g. structs, unions)
-"variable.other.member" = { fg="s2" }
+"variable.other.member" = { fg="s1" }
 
 # things like %..., $... in gdscript, or .class and #id in CSS
 "label" = "s1"
