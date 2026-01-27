@@ -242,12 +242,15 @@
 "markup.inline.completion" = { fg="s1" }
 # "markup.inline.hover" = { fg="s1" }
 
+# [HINT]
+# [INFO]
+# [WARN]
+# [SAFETY]
 
 [palette]
 error = "#ff0000"
 warning = "#ffff70"
-# this is not a pretty color
-hint = "#aa55aa"
+hint = "#7ea172"
 info = "#00ff00"
 red = "#a93636"
 green = "#065905"
