@@ -10,7 +10,7 @@
 "ui.cursor.insert" = { bg="red", fg="s0" }
 "ui.cursor.select" = { bg="red", fg="s9" }
 # a second cursor that finds any matching symbol, such as selecting the other of these when one is selected ""
-"ui.cursor.match" = { bg="s2", fg="s9" }
+"ui.cursor.match" = { bg="s4", fg="s9" }
 # # primary: the cursor you move around with hkjl
 "ui.cursor.primary" = { bg="cursor", fg="s9" }
 "ui.cursor.primary.normal" = { bg="cursor", fg="s9" }
