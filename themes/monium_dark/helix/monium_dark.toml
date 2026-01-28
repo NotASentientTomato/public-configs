@@ -72,7 +72,7 @@
   # Default style for inlay hints of all kinds. can be separated into 'parameter', 'type'
 "ui.virtual.inlay-hint" =                     { fg = "s1" }
   # # stuff like <   > or whichever you've configuered in helix's config.toml file under [editor.soft-wrap] for where long lines extends outside the border of the terminal
-"ui.virtual.wrap" =                           { fg="s1", modifiers = [""] }
+"ui.virtual.wrap" =                           { fg="s1", modifiers=[""] }
   # the jump labels when using the two-letter jumper tool - gw
 "ui.virtual.jump-label" =                     { bg="s1", fg="s8", modifiers=["bold"] }
  
@@ -102,14 +102,14 @@
 "ui.cursorcolumn.secondary" =                 { bg="s6" }
 
   # things like id, type, format...
-"attribute" =                                 { modifiers = ["italic"] }
+"attribute" =                                 { modifiers=["italic"] }
 
 "type" =                                      { modifiers=[""] }
   # "keywords like Vec, String, usize"
 "type.builtin" =                              { fg="s3",  modifiers=["italic"] }
   # Generic type parameters (T)
-"type.parameter" =                            { modifiers = ["bold"] }
-"type.enum.variant" =                         { modifiers = ["italic"] }
+"type.parameter" =                            { modifiers=["bold"] }
+"type.enum.variant" =                         { modifiers=["italic"] }
   # words like #303030, LEFT RIGHT enums
 
   # such as 
@@ -132,15 +132,15 @@
   # Erlang/Elixir atoms, Ruby symbols, Clojure keywords
 "string.symbol" =                             { fg="s2" }
   # comments such as this very line itself
-"comment" =                                   { fg="s3", modifiers = ["italic"] }
+"comment" =                                   { fg="s3", modifiers=["italic"] }
   # single line comments // or #
-"comment.line" =                              { fg="s3", modifiers = [""] }
+"comment.line" =                              { fg="s3", modifiers=[""] }
   # Line documentation comments (e.g. /// in Rust)
-"comment.line.documentation" =                { fg="s3", modifiers = [""] }
+"comment.line.documentation" =                { fg="s3", modifiers=[""] }
   # Block comments /* */
-"comment.block" =                             { fg="s3", modifiers = [""] }
+"comment.block" =                             { fg="s3", modifiers=[""] }
   # Block documentation comments (e.g. /** */ in Rust)
-"comment.block.documentation" =               { fg="s3", modifiers = [""] }
+"comment.block.documentation" =               { fg="s3", modifiers=[""] }
 
   # variables
 "variable" = "s2"
@@ -220,7 +220,7 @@
 "hint" =                                      { bg="hint", fg="s0" }
 
 "diagnostic" =                                { bg="red", fg="s0" }
-"diagnostic.hint" =                           { underline =                      { color="s0", style="line"} }
+"diagnostic.hint" =                           { underline={ color="s0", style="line"} }
 "diagnostic.info" =                           { bg="info", fg="s0", modifiers=["bold"] }
 "diagnostic.warning" =                        { bg="warning", fg="s0", modifiers=["bold"] }
   # lines with compile errors
@@ -248,23 +248,23 @@
   # [SAFETY]
 
 [palette]
-  error = "#ff0000"
-  warning = "#ffff70"
-  hint = "#7ea172"
-  info = "#00ff00"
-  red = "#a93636"
-  green = "#065905"
-  blue = "#6666aa"
-  cursor = "#3388ea"
+error = "#ff0000"
+warning = "#ffff70"
+hint = "#7ea172"
+info = "#00ff00"
+red = "#a93636"
+green = "#065905"
+blue = "#6666aa"
+cursor = "#3388ea"
 
 
-  s9 = "#fffffd"
-  s8 = "#fafaf6"
-  s7 = "#efefed"
-  s6 = "#d2d2d0"
-  s5 = "#bababd"
-  s4 = "#a1a1a1"
-  s3 = "#787876"
-  s2 = "#5f5f5d"
-  s1 = "#333331"
-  s0 = "#000000"
+s9 = "#fffffd"
+s8 = "#fafaf6"
+s7 = "#efefed"
+s6 = "#d2d2d0"
+s5 = "#bababd"
+s4 = "#a1a1a1"
+s3 = "#787876"
+s2 = "#5f5f5d"
+s1 = "#333331"
+s0 = "#000000"
