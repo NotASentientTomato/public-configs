@@ -7,8 +7,8 @@
 
 "ui.cursor.normal" =                          { bg="s2", fg="s9" }
   # # when using multiple cursors, the cursor which are not the primary has the following appearence where the cursor is on the selected words
-"ui.cursor.insert" =                          { bg="red", fg="s0" }
-"ui.cursor.select" =                          { bg="red", fg="s9" }
+"ui.cursor.insert" =                          { bg="cursor", fg="s9" }
+"ui.cursor.select" =                          { bg="cursor", fg="s9" }
   # a second cursor that finds any matching symbol, such as selecting the other of these when one is selected ""
 "ui.cursor.match" =                           { bg="s4", fg="s9" }
   # # primary: the cursor you move around with hkjl
@@ -217,7 +217,7 @@
 "warning" =                                   { bg="warning", fg="s0" }
 "error" =                                     { bg="error", fg="s9", modifiers=["bold"] }
 "info" =                                      { bg="info", fg="s1" }
-"hint" =                                      { bg="hint", fg="s0" }
+"hint" =                                      { bg="hint", fg="s9" }
 
 "diagnostic" =                                { bg="red", fg="s0" }
 "diagnostic.hint" =                           { underline={ color="s0", style="line"} }
@@ -250,7 +250,7 @@
 [palette]
 error = "#ff0000"
 warning = "#ffff70"
-hint = "#7ea172"
+hint = "#1368ca"
 info = "#00ff00"
 red = "#a93636"
 green = "#065905"
@@ -263,6 +263,7 @@ s8 = "#fafaf6"
 s7 = "#efefed"
 s6 = "#d2d2d0"
 s5 = "#bababd"
+s5l = "#afafaf"
 s4 = "#a1a1a1"
 s3 = "#787876"
 s2 = "#5f5f5d"
