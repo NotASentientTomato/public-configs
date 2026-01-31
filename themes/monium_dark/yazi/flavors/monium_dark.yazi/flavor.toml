@@ -1,0 +1,157 @@
+[app]
+overall =           { bg = "#bababd" }
+
+# file list
+[mgr]
+# the string of the current path of the selected file that is shown on top of the window. for instance "~/.local"
+cwd =               { bg = "#bababd", fg = "#333331"}
+# the color of the matched text string on the selected line when searching for words, using '/'
+find_keyword =      { bg = "#333331", fg = "#fafafa"}
+# Style of current file location in all found files to the right of the filename.
+find_position =     { bg = "#ff0000", fg = "#333331" }
+# Copied file marker style.
+marker_copied =     { bg = "#0099ff", fg = "#0099ff" }
+# Style of copied file number. This is the small rectangle in the upper right corner of the window,
+# after the selected files have been yanked with 'y'
+marker_cut =        { bg = "#ff0000", fg = "#ff0000" }
+# Marker style of pre-selected file in visual mode, such as when pressing SPACEBAR to select multiple files
+marker_marked =     { bg = "#333331", fg = "#333331" }
+#
+marker_selected =   { bg = "#333331", fg = "#333331" }
+# Style of copied file number. This is the small rectangle in the upper right corner of the window, after the selected files have been cut with 'x'
+count_copied =      { bg = "#0099ff", fg = "#333331" } 
+count_cut =         { bg = "#ff0000", fg = "#333331" }
+count_selected =    { bg = "#333331", fg = "#bababd" }
+# Border symbol, e.g. "│", the character that separates the window into columns.
+border_symbol = "│"
+border_style =      { bg = "#bababd", fg = "#aba1ac" }
+
+# syntect_theme = "/path" # i don't know what this is. 
+
+
+[indicator]
+parent =            { bg="#bababd", fg="#333331" }
+current =           { bg="#bababd", fg="#333331" }
+preview =           { bg="#bababd", fg="#333331" }
+# padding =           { open="", close="" }
+
+
+[tabs]
+active =            { bg="#333331", fg="#fafaf1" }
+inactive =          { bg="#bababd", fg="#333331" }
+# sep_inner =       { open = "", close = "" }
+# sep_outer =       { open = "", close = "" }
+
+
+[mode]
+# normal_main =     { }
+# normal_alt =      { }
+# select_main =     { }
+# select_alt =      { }
+# unset_main =      { }
+# unset_alt =       { }
+
+# the bar at the bottom of the window
+[status]
+perm_type =         { bg = "#bababd", fg = "#333331" }
+perm_read =         { bg = "#bababd", fg = "#333331" }
+perm_write =        { bg = "#bababd", fg = "#333331" }
+perm_exec =         { bg = "#bababd", fg = "#333331" }
+perm_sep =          { bg = "#bababd", fg = "#333331" }
+progress_label =    { bg = "#a1a1a1", fg = "#333331" }
+# this colors the seperators currently, giving the progress indicator a bad look.
+# can't figure out how to preserve the rounded egdes look. 
+progress_normal =   { bg = "#a1a1a1", fg = "#333331" }
+progress_error =    { bg = "#ff0000", fg = "#333331" }
+
+
+[which]
+# cols = 2
+# mask =            { }
+# cand =            { }
+# rest =            { }
+# desc =            { }
+# separator = " -> "
+# separator_style = { }
+
+
+# Confirmation dialog. e.g. remove, overwrite, etc.
+[confirm]
+border =            { bg = "#bababd", fg = "#333331" }
+title =             { bg = "#bababd", fg = "#000000" }
+body =              { bg = "#bababd", fg = "#333331" }
+list =              { bg = "#bababd", fg = "#333331" }
+btn_yes =           { bg = "#bababd", fg = "#333331" }
+btn_no =            { bg = "#bababd", fg = "#333331" }
+btn_labels = ["ok", "cancel"]
+
+
+# file information spotter
+[spot]
+border =            { bg = "#bababd", fg = "#3b413c" }
+title =             { bg = "#bababd", fg = "#3b413c" }
+tbl_col =           { bg = "#bababd", fg = "#3b413c" }
+tbl_cell =          { bg = "#fffffd", fg = "#3b413c" }
+
+
+[notify]
+title_info =        { bg = "#00ff00", fg = "#303030"}
+title_warn =        { bg = "#ffff70", fg = "#303030"}
+title_error =       { bg = "#ff0000", fg = "#303030"}
+
+
+[pick]
+border =            { bg = "#bababd", fg = "#333333" }
+active =            { bg = "#fffffd", fg = "#333333" }
+inactive =          { bg = "#bababd", fg = "#333333" }
+
+
+[input]
+# border =          { }
+# title =           { }
+# value =           { }
+# selected =        { }
+
+
+[cmp]
+# border =          { }
+active =            { bg="#333333", fg="#fafaf1" }
+inactive =          { bg="#333333", fg="#fafaf1" }
+# icon_file = ""
+# icon_folder = ""
+# icon_command = ""
+
+# task manager
+[tasks]
+border =            { bg = "#bababd", fg = "#333331" }
+title =             { bg = "#bababd", fg = "#333331" }
+hovered =           { bg = "#fffffd", fg = "#333331" }
+
+
+# help menu, opened by pressing '~'
+[help]
+# on =              { }
+# run =             { }
+# desc =            { }
+# hovered =         { }
+footer =            { bg = "#bababd", fg = "#333331" }
+# icon_info = ""
+# icon_warn = ""
+# icon_error = ""
+
+
+[filetype]
+rules = [
+	# Image
+	                  { mime = "image/*", fg = "#5f5f5d" },
+	# Video
+	                  { mime = "{audio,video}/*", fg = "#5f5f5d" },
+	# Empty file
+	                  { mime = "inode/empty", fg = "cyan" },
+	# Orphan symbolic links
+	                  { url = "*", is = "orphan", fg = "red" },
+	# Fallback
+	#                 { url = "*", fg = "white" },
+	                  { url = "*/", fg = "blue" }
+]
+
