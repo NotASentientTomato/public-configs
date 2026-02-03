@@ -45,8 +45,8 @@
   # the boarder of the popup when pressing space or ']' 
 "ui.popup.info" =                             { bg="s5", fg="s1"}
 
-  # no idea.
-"ui.picker.header" =                          { bg="error" }
+  # the  "    kind     name    " header bar in the Symbol picker (space, s)
+"ui.picker.header" =                          { bg="s5" }
 
   # the border between panes in vertical split mode, etc
 "ui.window" =                                 { bg="s5", fg="s1" }
