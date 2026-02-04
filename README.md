@@ -16,7 +16,7 @@ Themes deemed >95% complete are
 
 # Instructions
 # Helix
-Copy the "monium_dark.toml" file to ~/.config/helix/themes directory.
+Copy the "monium_dark.toml" file to the ~/.config/helix/themes directory.
 Add the following line to the helix config file: 
 ```
 theme = "monium_dark" 
