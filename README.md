@@ -15,5 +15,25 @@ Themes deemed >95% complete are
 - Yazi
 
 # Instructions
+# Helix
+Copy the "monium_dark.toml" file to ~/.config/helix/themes directory.
+Add the following line to the helix config file: 
+```
+theme = "monium_dark" 
+```
+
+## Kew
+Todo
+
+## Niri
+Copy the layout.kdl file into the same directory as the Niri config file and add the following line to the config.kdl file:
+```
+include "layout.kdl"
+```
+
+## Yazi
+Todo
+
+## Zellij
 Todo
 
