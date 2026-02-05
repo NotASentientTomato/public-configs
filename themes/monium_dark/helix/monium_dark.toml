@@ -37,7 +37,7 @@
   # the background of the buffer tabs
 "ui.bufferline" =                             { bg="s5", fg="s0" }
   # the tab of the opened buffer
-"ui.bufferline.active" =                      { bg="s1", fg="s8" }
+"ui.bufferline.active" =                      { bg="s1", fg="s5", modifiers=["bold"] }
   # highlight diff lines between the file changes and the git repository
 
   # the documentation popup (space, k)
