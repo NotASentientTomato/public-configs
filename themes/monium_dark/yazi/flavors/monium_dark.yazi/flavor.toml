@@ -10,18 +10,18 @@ find_keyword =      { bg = "#333331", fg = "#fafafa"}
 # Style of current file location in all found files to the right of the filename.
 find_position =     { bg = "#ff0000", fg = "#333331" }
 # Copied file marker style.
-marker_copied =     { bg = "#0099ff", fg = "#0099ff" }
+marker_copied =     { bg = "#1cce1c", fg = "#1cce1c" }
 # Style of copied file number. This is the small rectangle in the upper right corner of the window,
 # after the selected files have been yanked with 'y'
-marker_cut =        { bg = "#ff0000", fg = "#ff0000" }
-# Marker style of pre-selected file in visual mode, such as when pressing SPACEBAR to select multiple files
-marker_marked =     { bg = "#333331", fg = "#333331" }
-#
-marker_selected =   { bg = "#333331", fg = "#333331" }
+marker_cut =        { bg = "#ffac1c", fg = "#ffac1c" }
+# Marker style of selected file in SELECT mode ('v'), 
+marker_marked =     { bg = "#0099ff", fg = "#0099ff" }
+# Marker style of files picked by pressing SPACEBAR to select multiple files
+marker_selected =   { bg = "#0099ff", fg = "#0099ff" }
 # Style of copied file number. This is the small rectangle in the upper right corner of the window, after the selected files have been cut with 'x'
-count_copied =      { bg = "#0099ff", fg = "#333331" } 
-count_cut =         { bg = "#ff0000", fg = "#333331" }
-count_selected =    { bg = "#333331", fg = "#bababd" }
+count_copied =      { bg = "#1cce1c", fg = "#333331" } 
+count_cut =         { bg = "#ffac1c", fg = "#333331" }
+count_selected =    { bg = "#0099ff", fg = "#333331" }
 # Border symbol, e.g. "│", the character that separates the window into columns.
 border_symbol = "│"
 border_style =      { bg = "#bababd", fg = "#aba1ac" }
